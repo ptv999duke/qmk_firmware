@@ -53,7 +53,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
              
         KC_RALT,        KC_ESC,
         KC_INS,
-        RCTL(KC_LALT),KC_DELT, KC_ENT
+        LCTL(KC_LALT),KC_DELT, KC_ENT
     ),
 
 /* Keymap 1: Symbol Layer
