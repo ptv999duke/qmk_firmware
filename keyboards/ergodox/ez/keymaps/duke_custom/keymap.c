@@ -17,11 +17,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |--------+------+------+------+------+-------------|             |------+------+------+------+------+------+--------|
  * | Tab    |   Q  |   W  |   E  |   R  |   T  | Home |             | PgUp |   Y  |   U  |   I  |   O  |   P  |   \    |
  * |--------+------+------+------+------+------|      |             |      |------+------+------+------+------+--------|
- * | Ctrl   |   A  |   S  |   D  |   F  |   G  |------|             |------|   H  |   J  |   K  |   L  |   ;  |  Ctrl  |
+ * | Ctrl   |   A  |   S  |   D  |   F  |   G  |------|             |------|   H  |   J  |   K  |   L  |   ;  | '/Ctrl |
  * |--------+------+------+------+------+------| End  |             | PgDn |------+------+------+------+------+--------|
  * | LShift |   Z  |   X  |   C  |   V  |   B  |      |             |      |   N  |   M  |   ,  |   .  |   /  | RShift |
  * `--------+------+------+------+------+-------------'             `-------------+------+------+------+------+--------'
- *   |~L1   |  '"  |  Alt | Left | Right|                                         |  Up  | Down |   [  |   ]  |   ~L2  |
+ *   |~L1   |  '"  |  Alt | Left | Right|                                   18898      |  Up  | Down |   [  |   ]  |   ~L2  |
  *   `----------------------------------'                                         `------------------------------------'
  *                                        ,----------------.        ,-----------------.
  *                                        | LGui |   App   |        | Alt     |  Esc  |
@@ -47,7 +47,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         // right hand
         KC_CAPS,  KC_6,   KC_7,   KC_8,     KC_9,     KC_0,     KC_MINS,
         KC_PGUP,  KC_Y,   KC_U,   KC_I,     KC_O,     KC_P,     KC_BSLS,
-                  KC_H,   KC_J,   KC_K,     KC_L,     KC_SCLN,  KC_LCTRL,
+                  KC_H,   KC_J,   KC_K,     KC_L,     KC_SCLN,  CTL_T(KC_QUOT),
         KC_PGDN,  KC_N,   KC_M,   KC_COMM,  KC_DOT,   KC_SLSH,  KC_RSFT,
                           KC_UP,  KC_DOWN,  KC_LBRC,  KC_RBRC,  KC_FN2,
              
